@@ -161,7 +161,7 @@ async def stock(ctx):
 
 @bot.command()
 async def ltc(ctx):
-    embed = discord.Embed(description=ltc)
+    embed = discord.Embed(description=f"{ltc}")
     await ctx.send(embed=embed, mention_author=False)
 
 @bot.command(aliases=["inv","invite"])
